@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'PPMori-Extralight';
+  src: url('/fonts/PPMori-Extralight.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-Regular';
+  src: url('/fonts/PPMori-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-SemiBold';
+  src: url('/fonts/PPMori-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PPMori-RegularItalic';
+  src: url('/fonts/PPMori-RegularItalic.otf')
+    format('opentype');
+}
