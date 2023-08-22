@@ -8,7 +8,7 @@ export function generateStaticParams() {
   return [{ locale: 'en-US' }, { locale: 'pt-BR' }];
 }
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -33,7 +33,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body>
         <NextIntlClientProvider
           locale={locale}
           messages={messages}
