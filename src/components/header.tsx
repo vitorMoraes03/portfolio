@@ -8,7 +8,7 @@ function Header() {
   const t = useTranslations('Header');
 
   return (
-    <nav className="xs:items-center flex justify-between md:grid md:grid-cols-12">
+    <header className="xs:items-center flex justify-between md:grid md:grid-cols-12">
       <div className="col-span-5 hidden md:inline-block">
         <h3>{t('logo')}</h3>
       </div>
@@ -29,7 +29,7 @@ function Header() {
           />
         </Link>
       </div>
-    </nav>
+    </header>
   );
 }
 

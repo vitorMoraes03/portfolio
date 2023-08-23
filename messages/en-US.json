@@ -8,18 +8,18 @@
       "certificates": "Certificates"
     }
   },
-  "Section 1": {
+  "Hero": {
     "hello": "Hello, I'm Vitor Moraes",
     "engineer": "Front End Developer",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod."
+    "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
   },
-  "Section 2": {
+  "Bio": {
     "title": "About me",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
     "skills": "Skills",
     "certificate": "Certificates"
   },
-  "Section 3": {
+  "Projects": {
     "title": "Projects",
     "link": "View project",
     "description": "Description",
