@@ -1,11 +1,14 @@
 'use client';
-import { useTranslations } from 'next-intl';
 import Header from '@/components/header';
+import Hero from '@/components/hero';
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <main>
+        <Hero />
+      </main>
     </div>
   );
 }
