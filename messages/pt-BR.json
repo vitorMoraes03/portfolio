@@ -1,5 +1,46 @@
 {
-  "Index": {
-    "title": "Olá mundo!"
+  "Header": {
+    "logo": "Vitor Moraes",
+    "index": {
+      "about": "Sobre",
+      "projects": "Projetos",
+      "contact": "Contato",
+      "certificates": "Certificados"
+    }
+  },
+  "Hero": {
+    "hello": "Olá, eu sou o Vitor Moraes",
+    "engineer": "Desenvolvedor Front End",
+    "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
+  },
+  "Bio": {
+    "title": "Sobre mim",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+    "skills": "Habilidades",
+    "certificate": "Certificados"
+  },
+  "Projects": {
+    "title": "Projetos",
+    "link": "Ver projeto",
+    "description": "Descrição",
+    "purpose": "Propósito e Objetivo do Projeto",
+    "problems": "Problemas e Processo de Pensamento",
+    "repository": "Repositório no GitHub",
+    "projects": [
+      {
+        "name": "Projeto 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "repoUrl": "/teste"
+      }
+    ]
+  },
+  "Footer": {
+    "copy": "© 2020 Vitor Moraes. Todos os direitos reservados.",
+    "message": "Entre em contato!",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "email": "E-mail"
   }
 }

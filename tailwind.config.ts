@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss';
 
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -14,9 +16,13 @@ const config: Config = {
         bold: ['PPMori-SemiBold', 'sans-serif'],
         italic: ['PPMori-RegularItalic', 'sans-serif'],
       },
+      screens: {
+        xs: '475px',
+        ...defaultTheme.screens,
+      },
     },
+    plugins: [],
   },
-  plugins: [],
 };
 
 export default config;

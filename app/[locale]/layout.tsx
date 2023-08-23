@@ -1,14 +1,11 @@
 import '../globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 import { notFound } from 'next/navigation';
 
 export function generateStaticParams() {
   return [{ locale: 'en-US' }, { locale: 'pt-BR' }];
 }
-
-// const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -28,12 +25,13 @@ export default async function LocaleLayout({
       await import(`../../messages/${locale}.json`)
     ).default;
   } catch (error) {
+    console.log('teste');
     notFound();
   }
 
   return (
     <html lang={locale}>
-      <body>
+      <body className="font-regular xs:px-7 xs:py-4 px-6 py-4 md:px-10 md:py-6">
         <NextIntlClientProvider
           locale={locale}
           messages={messages}
