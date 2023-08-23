@@ -13,11 +13,41 @@
     "engineer": "Front End Developer",
     "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
   },
+  "Offer": {
+    "title": "What I can offer...",
+    "items": [
+      {
+        "span": "01",
+        "title": "Commitment",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+        "span": "02",
+        "title": "Organization",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+        "span": "03",
+        "title": "Ethics of work",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
   "Bio": {
     "title": "About me",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
     "skills": "Skills",
-    "certificate": "Certificates"
+    "certificate": "Certificates",
+    "arrayOfSkills": [
+      "HTML5",
+      "React",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "MongoDB"
+    ]
   },
   "Projects": {
     "title": "Projects",
@@ -32,7 +62,18 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
         "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
         "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "repoUrl": "/teste"
+        "repoUrl": "/teste",
+        "imageUrl": "/teste",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
       }
     ]
   },
