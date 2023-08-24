@@ -33,7 +33,7 @@
       }
     ]
   },
-  "Bio": {
+  "About": {
     "title": "Sobre mim",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
     "skills": "Habilidades",
@@ -63,7 +63,7 @@
         "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
         "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
         "repoUrl": "/teste",
-        "imageUrl": "/teste",
+        "imageUrl": "/images/teste.png",
         "arrayOfSkills": [
           "HTML5",
           "React",

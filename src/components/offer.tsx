@@ -2,36 +2,20 @@ import { useTranslations } from 'next-intl';
 
 function Offer() {
   const t = useTranslations('Offer');
-  const arrayOfItems = [
-    {
-      span: t('items.0.span'),
-      title: t('items.0.title'),
-      text: t('items.0.text'),
-    },
-    {
-      span: t('items.1.span'),
-      title: t('items.1.title'),
-      text: t('items.1.text'),
-    },
-    {
-      span: t('items.2.span'),
-      title: t('items.2.title'),
-      text: t('items.2.text'),
-    },
-  ];
+  const keys = [0, 1, 2];
 
   return (
-    <div className="py-28">
+    <div className="pt-28">
       <div className="text-3xl lg:text-5xl">
         <h2>{t('title')}</h2>
       </div>
       <div className="grid grid-cols-1 pt-12 sm:grid-cols-3 sm:gap-6">
-        {arrayOfItems.map((item) => (
+        {keys.map((key) => (
           <OfferItem
-            key={`${item.span}-${item.title}`}
-            span={item.span}
-            title={item.title}
-            text={item.text}
+            key={`${key}-offer`}
+            span={t(`items.${key}.span`)}
+            title={t(`items.${key}.title`)}
+            text={t(`items.${key}.text`)}
           />
         ))}
       </div>

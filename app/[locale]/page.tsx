@@ -1,6 +1,6 @@
 'use client';
 
-import Bio from '@/components/bio';
+import About from '@/components/about';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Offer from '@/components/offer';
@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Hero />
         <Offer />
-        <Bio />
+        <About />
         <Projects />
       </main>
     </div>
