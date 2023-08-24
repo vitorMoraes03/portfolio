@@ -33,7 +33,7 @@ function OfferItem({
   text: string;
 }) {
   return (
-    <div className="border-b border-b-gray-300 py-5 sm:border-b-0 sm:border-l sm:border-l-gray-300 sm:pl-6">
+    <div className="border-b border-b-gray-200 py-5 sm:border-b-0 sm:border-l sm:border-l-gray-200 sm:pl-6">
       <span className="text-4xl text-gray-300 opacity-70">
         {span}
       </span>

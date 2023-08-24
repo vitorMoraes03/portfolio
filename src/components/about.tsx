@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-function about() {
+function About() {
   const t = useTranslations('About');
   const keys = [0, 1, 2, 3, 4, 5, 6, 7];
 
@@ -29,4 +29,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;

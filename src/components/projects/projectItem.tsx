@@ -1,15 +1,21 @@
-import AddIcon from '@/icons/add';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import ListItem from './listItem';
+import { useState } from 'react';
+
+interface ProjectItemProps {
+  keyItem: number;
+  keysSkills: number[];
+}
 
 function ProjectItem({
   keyItem,
   keysSkills,
-}: {
-  keyItem: number;
-  keysSkills: number[];
-}) {
+}: ProjectItemProps) {
   const t = useTranslations('Projects');
+  const [currentDropdown, setCurrentDropdown] = useState<
+    number | null
+  >(null);
 
   return (
     <div className="grid md:grid-cols-2">
@@ -33,43 +39,44 @@ function ProjectItem({
         </div>
         <div className="pt-6">
           <ul>
-            <ListItem text={t(`description`)} number={1} />
-            <ListItem text={t(`purpose`)} number={2} />
-            <ListItem text={t(`problems`)} number={3} />
+            <ListItem
+              number={1}
+              keyItem={keyItem}
+              setCurrentDropdown={setCurrentDropdown}
+              currentDropdown={currentDropdown}
+            />
+            <ListItem
+              number={2}
+              keyItem={keyItem}
+              setCurrentDropdown={setCurrentDropdown}
+              currentDropdown={currentDropdown}
+            />
+            <ListItem
+              number={3}
+              keyItem={keyItem}
+              setCurrentDropdown={setCurrentDropdown}
+              currentDropdown={currentDropdown}
+            />
           </ul>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-4 border">
+      <div className="flex flex-col items-center justify-start gap-4">
         <Image
           src={t(`projects.${keyItem}.imageUrl`)}
           alt="website shoes"
-          width={200}
-          height={200}
+          width={350}
+          height={150}
+          className="object-fill h-60 w-60 cursor-pointer rounded-xl 
+          filter transition-all duration-500 ease-in-out hover:scale-110 hover:drop-shadow-2xl"
         />
-        <div>
-          {/* LINK URL {t(`projects.${key}.repoUrl`)} */}
-          <button className="border">{t(`link`)}</button>
-        </div>
+        {/* <div>
+          <button className="border border-black px-3 py-1 text-xs font-semibold">
+            {t(`link`)}
+          </button>
+        </div> */}
+        {/* LINK URL {t(`projects.${key}.repoUrl`)} */}
       </div>
     </div>
-  );
-}
-
-function ListItem({
-  text,
-  number,
-}: {
-  text: string;
-  number: number;
-}) {
-  return (
-    <li className="flex items-center justify-between border-b border-gray-300 py-2">
-      <div>
-        <span>0{number}. </span>
-        {text}
-      </div>
-      <AddIcon />
-    </li>
   );
 }
 
