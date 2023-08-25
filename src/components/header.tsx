@@ -7,7 +7,6 @@ import { useState } from 'react';
 
 function Header() {
   const t = useTranslations('Header');
-  const [mouseEnter, setMouseEnter] = useState(false);
 
   return (
     <header className="flex justify-between xs:items-center md:grid md:grid-cols-12">
@@ -15,10 +14,10 @@ function Header() {
         <h3>{t('logo')}</h3>
       </div>
       <div className="col-span-6 flex flex-col items-start gap-1 xs:flex-row xs:gap-6 lg:gap-10">
-        <LinksHeader buttonText={t('index.about')} />
-        <LinksHeader buttonText={t('index.projects')} />
-        <LinksHeader buttonText={t('index.contact')} />
-        <LinksHeader buttonText={t('index.certificates')} />
+        <LinksUnderlined text={t('index.about')} />
+        <LinksUnderlined text={t('index.projects')} />
+        <LinksUnderlined text={t('index.contact')} />
+        <LinksUnderlined text={t('index.certificates')} />
       </div>
       <div className="col-span-1 h-fit justify-self-end">
         <Link href={'/teste'}>
@@ -35,10 +34,10 @@ function Header() {
   );
 }
 
-function LinksHeader({
-  buttonText,
+export function LinksUnderlined({
+  text,
 }: {
-  buttonText: string;
+  text: string;
 }) {
   const [mouseEnter, setMouseEnter] = useState(false);
 
@@ -49,10 +48,10 @@ function LinksHeader({
       onMouseLeave={() => setMouseEnter(false)}
     >
       <button className="hover:text-underlined">
-        {buttonText}
+        {text}
       </button>
       <span
-        className="z-2 absolute bottom-1 left-0 h-px w-full bg-black"
+        className="z-2 absolute bottom-[2px] left-0 h-px w-full bg-black"
         style={{
           willChange: 'transform, color',
           transform: mouseEnter ? 'scaleX(1)' : 'scaleX(0)',

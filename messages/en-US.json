@@ -58,7 +58,43 @@
     "repository": "Git hub repository",
     "projects": [
       {
-        "name": "Project 1",
+        "name": "Gourmet Shop",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "purpose": "Lorem ipsum 123 dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/gourmet-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Motion Sneakers",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "purpose": "Lorem ipsum 123 dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/motion-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Angry Match",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
         "purpose": "Lorem ipsum 123 dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
         "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
@@ -78,7 +114,7 @@
     ]
   },
   "Footer": {
-    "copy": "© 2020 Vitor Moraes. All rights reserved.",
+    "copy": "© 2023, Built by Vitor Moraes.",
     "message": "Get in touch!",
     "linkedin": "Linkedin",
     "github": "Github",

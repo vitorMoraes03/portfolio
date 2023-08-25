@@ -30,7 +30,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className="font-regular xs:px-7 xs:py-4 px-4 py-4 tracking-tight md:px-10 md:py-6">
+      <body className="font-regular xs:px-7 xs:pt-4 px-4 pt-4 tracking-tight md:px-10 md:pt-6 xl:px-20">
         <NextIntlClientProvider
           locale={locale}
           messages={messages}

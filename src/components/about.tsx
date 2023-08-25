@@ -15,7 +15,7 @@ function About() {
       <div className="flex flex-col items-center justify-center text-center">
         <h2 className="text-2xl">{t('skills')}</h2>
         <div className="w-3/4 pt-4">
-          <ul className="flex flex-wrap justify-center gap-1">
+          <ul className="flex flex-wrap justify-center gap-[2px]">
             {keys.map((key) => (
               <li key={key} className="skill-box">
                 {t(`arrayOfSkills.${key}`)}

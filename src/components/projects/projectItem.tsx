@@ -18,13 +18,13 @@ function ProjectItem({
   >(null);
 
   return (
-    <div className="grid md:grid-cols-2">
+    <div className="grid md:grid-cols-2 py-10">
       <div>
         <h2 className="text-3xl">
           {t(`projects.${keyItem}.name`)}
         </h2>
         <div className="max-w-[80%] pt-6">
-          <ul className="flex flex-wrap gap-1">
+          <ul className="flex flex-wrap gap-[2px]">
             {keysSkills.map((keySkill) => (
               <li
                 key={`${keySkill}-skill`}

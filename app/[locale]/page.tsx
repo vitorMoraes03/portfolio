@@ -1,6 +1,7 @@
 'use client';
 
 import About from '@/components/about';
+import Footer from '@/components/footer';
 import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Offer from '@/components/offer';
@@ -16,6 +17,7 @@ export default function Home() {
         <About />
         <Projects />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -10,7 +10,7 @@
 
 @layer components {
   .skill-box {
-    @apply mb-1 bg-black px-2 py-1 text-sm font-semibold text-white;
+    @apply mb-1 bg-black px-3 py-1 text-xs font-semibold text-white;
   }
 }
 
