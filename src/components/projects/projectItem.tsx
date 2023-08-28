@@ -26,12 +26,7 @@ function ProjectItem({
     // <div className="grid py-10 md:grid-cols-2">
     <div className="py-10">
       <div>
-        <div
-          style={{
-            backgroundImage: `url('/images/vitoristvan_urban_environment_at_night_1.png')`,
-          }}
-          className="h-20 rounded-sm bg-cover bg-center opacity-90"
-        >
+        <div className="h-32 rounded-sm bg-[url('/images/vitoristvan_urban_environment_at_night_1.png')] bg-cover opacity-90">
           teste
         </div>
       </div>

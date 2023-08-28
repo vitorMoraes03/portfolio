@@ -47,6 +47,23 @@
       "Next.js",
       "Node.js",
       "MongoDB"
+    ],
+    "arrayOfImages": [
+      {
+        "name": "Nova Friburgo",
+        "alt": "Nova Friburgo Panoramic View",
+        "src": "/images/nova-friburgo.png"
+      },
+      {
+        "name": "Rio de Janeiro",
+        "alt": "Rio de Janeiro Panoramic View",
+        "src": "/images/rio-cristo.jpg"
+      },
+      {
+        "name": "Lisbon",
+        "alt": "Lisbon Houses Panoramic View",
+        "src": "/images/lisboa-casas.jpg"
+      }
     ]
   },
   "Projects": {

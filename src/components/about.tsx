@@ -1,18 +1,111 @@
+import ArrowLeftIcon from '@/icons/arrowLeft';
+import ArrowRightIcon from '@/icons/arrowRight';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import { useState } from 'react';
 
 function About() {
   const t = useTranslations('About');
-  const keys = [0, 1, 2, 3, 4, 5, 6, 7];
+  // const keys = [0, 1, 2, 3, 4, 5, 6, 7];
+  const [currentImage, setCurrentImage] = useState(0);
+
+  const imagesArray = [
+    {
+      src: t('arrayOfImages.0.src'),
+      alt: t('arrayOfImages.0.alt'),
+      title: t('arrayOfImages.0.title'),
+    },
+    {
+      src: t('arrayOfImages.1.src'),
+      alt: t('arrayOfImages.1.alt'),
+      title: t('arrayOfImages.1.title'),
+    },
+    {
+      src: t('arrayOfImages.2.src'),
+      alt: t('arrayOfImages.2.alt'),
+      title: t('arrayOfImages.2.title'),
+    },
+  ];
 
   return (
     <section className="grid grid-cols-1 pt-28 sm:grid-cols-2">
-      <div>
+      <div className="sm:pr-10">
         <h2 className="text-3xl">{t('title')}</h2>
         <div className="pt-6">
           <p>{t('text')}</p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center text-center">
+      <div className="relative justify-self-center md:h-[225px] md:w-[225px] lg:h-[325px] lg:w-[325px]">
+        {imagesArray.map((image, index) => (
+          <ImageCarousel
+            key={index}
+            src={image.src}
+            alt={image.alt}
+            current={currentImage === index}
+            title={image.title}
+          />
+        ))}
+        <button
+          className={`absolute -left-12 top-1/2 -translate-y-1/2 ${
+            currentImage === 0
+              ? 'cursor-default opacity-10'
+              : ''
+          }`}
+          onClick={() => {
+            if (currentImage === 0) return;
+            setCurrentImage(currentImage - 1);
+          }}
+        >
+          <ArrowLeftIcon />
+        </button>
+        <button
+          className={`absolute -right-12 top-1/2 -translate-y-1/2 
+          ${
+            currentImage === imagesArray.length - 1
+              ? 'cursor-default opacity-10'
+              : ''
+          }`}
+          onClick={() => {
+            if (currentImage === imagesArray.length - 1)
+              return;
+            setCurrentImage(currentImage + 1);
+          }}
+        >
+          <ArrowRightIcon />
+        </button>
+      </div>
+    </section>
+  );
+}
+
+function ImageCarousel({
+  src,
+  alt,
+  current,
+  title,
+}: {
+  src: string;
+  alt: string;
+  current: boolean;
+  title: string;
+}) {
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      width={450}
+      height={450}
+      className={`absolute h-full w-full 
+rounded-full object-cover transition-opacity ${
+        current ? 'opacity-100' : 'opacity-0'
+      }`}
+      title={title}
+    />
+  );
+}
+
+{
+  /* <div className="flex flex-col items-center justify-center text-center">
         <h2 className="text-2xl">{t('skills')}</h2>
         <div className="w-3/4 pt-4">
           <ul className="flex flex-wrap justify-center gap-[2px]">
@@ -23,10 +116,7 @@ function About() {
             ))}
           </ul>
         </div>
-        {/* <div>{t('certificate')}</div> */}
-      </div>
-    </section>
-  );
+      </div> */
 }
 
 export default About;
