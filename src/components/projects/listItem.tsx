@@ -30,7 +30,7 @@ function ListItem({
   }, [currentDropdown]);
 
   return (
-    <li className="border-b border-gray-200 py-2">
+    <li className="border-b border-gray-200 py-4">
       <div
         className="flex cursor-pointer items-center justify-between text-xl"
         onClick={() => {
@@ -41,9 +41,9 @@ function ListItem({
           setCurrentDropdown(number);
         }}
       >
-        <div>
+        <div className='flex'>
           <span className="mr-1">0{number}. </span>
-          {t(identifyText(number))}
+          <p className='w-[80%]'>{t(identifyText(number))}</p>
         </div>
         {open ? (
           <button>
@@ -61,7 +61,7 @@ function ListItem({
         }`}
       >
         <p className="pt-3">
-          {t(`projects.${keyItem}.${identifyText(number)}`)}
+          {t(`projects.${keyItem}.${identifyText(number)}`)}.
         </p>
       </div>
     </li>
@@ -70,12 +70,12 @@ function ListItem({
 
 function identifyText(number: number) {
   switch (number) {
-    case 1:
-      return 'description';
     case 2:
-      return 'purpose';
+      return 'description';
     case 3:
-      return 'problems';
+      return 'goals';
+    case 4:
+      return 'stack';
   }
 }
 

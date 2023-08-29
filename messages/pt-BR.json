@@ -68,65 +68,35 @@
   },
   "Projects": {
     "title": "Projetos",
-    "link": "Ver projeto",
+    "link": "Ver projeto online",
     "description": "Descrição",
-    "purpose": "Propósito e Objetivo do Projeto",
-    "problems": "Problemas e Processo de Pensamento",
+    "goals": "Propósito e Objetivo do Projeto",
+    "stack": "Stack",
     "repository": "Repositório no GitHub",
     "projects": [
       {
         "name": "Gourmet Shop",
-        "description": "Gourmet shop é um Gourmet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um",
-        "purpose": "Gourmet shop é um Gourmet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um",
-        "problems": "Gourmet shop é um Gourmet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um",
-        "repoUrl": "/teste",
-        "imageUrl": "/images/gourmet-home.png",
-        "arrayOfSkills": [
-          "HTML5",
-          "React",
-          "CSS",
-          "JavaScript",
-          "TypeScript",
-          "Next.js",
-          "Node.js",
-          "MongoDB"
-        ]
+        "description": "Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet.",
+        "goals": "Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet.",
+        "url": "https://gourmet-shop.vercel.app/",
+        "imageUrl": "/images/camille-brodard-f6Wpz1QPFZI-unsplash.jpg",
+        "stack": "React, Tailwind, TypeScript, Next.js, Node.js, MongoDB"
       },
       {
         "name": "Motion Sneakers",
-        "description": "Motion Sneakers é uma loja online para venda de tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
-        "purpose": "Motion Sneakers é uma loja online para venda de tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
-        "problems": "Motion Sneakers é uma loja online para venda de tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
-        "repoUrl": "/teste",
-        "imageUrl": "/images/motion-home.png",
-        "arrayOfSkills": [
-          "HTML5",
-          "React",
-          "CSS",
-          "JavaScript",
-          "TypeScript",
-          "Next.js",
-          "Node.js",
-          "MongoDB"
-        ]
+        "description": "Motion Sneakers é uma loja online para vender tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
+        "goals": "Motion Sneakers é uma loja online para vender tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
+        "url": "https://motionsneakers.netlify.app/",
+        "imageUrl": "/images/vitoristvan_urban_environment_at_night_1.png",
+        "stack": "React, JavaScript, Styled Components, Node.js, MongoDB"
       },
       {
         "name": "Angry Match",
-        "description": "Angry Match é um jogo de Memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
-        "purpose": "Angry Match é um jogo de Memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
-        "problems": "Angry Match é um jogo de Memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
-        "repoUrl": "/teste",
-        "imageUrl": "/images/readme-angrymatch-home.png",
-        "arrayOfSkills": [
-          "HTML5",
-          "React",
-          "CSS",
-          "JavaScript",
-          "TypeScript",
-          "Next.js",
-          "Node.js",
-          "MongoDB"
-        ]
+        "description": "Angry Match é um jogo de memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
+        "goals": "Angry Match é um jogo de memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
+        "url": "https://angrymatch.netlify.app/",
+        "imageUrl": "/images/backgroundimg-green-several-cards.png",
+        "stack": "React, JavaScript, Styled Components"
       }
     ]
   },

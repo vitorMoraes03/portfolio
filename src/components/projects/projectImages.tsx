@@ -28,17 +28,20 @@ function ProjectImages({
   return (
     <div className="flex flex-col gap-1">
       {projectsArray.map((project, index) => (
-        <button onClick={() => setSelection(index)}>
+        <button
+          onClick={() => setSelection(index)}
+          key={`${index}-imgProjects`}
+        >
           <Image
             src={project.src}
             alt={project.name}
             width={350}
             height={150}
-            className={`h-20 w-4/5 rounded-xl object-cover grayscale 
-          filter transition-all duration-500 ease-in-out
-          hover:drop-shadow-2xl ${
+            className={`h-20 w-full rounded-xl object-cover grayscale filter 
+          transition-all duration-500 ease-in-out hover:drop-shadow-2xl
+          md:w-4/5 ${
             selectionValue === index
-              ? 'scale-[1.05] grayscale-0'
+              ? 'scale-[1.03] grayscale-0 md:scale-[1.05]'
               : 'grayscale'
           }`}
             title={project.name}

@@ -15,14 +15,14 @@ function About() {
   }));
 
   return (
-    <section className="grid grid-cols-1 pt-28 sm:grid-cols-2">
-      <div className="sm:pr-10">
+    <section className="grid grid-cols-1 gap-12 pt-28 sm:grid-cols-2 sm:gap-0">
+      <div className="pr-10">
         <h2 className="text-3xl">{t('title')}</h2>
         <div className="pt-6">
           <p>{t('text')}</p>
         </div>
       </div>
-      <div className="relative justify-self-center md:h-[225px] md:w-[225px] lg:h-[325px] lg:w-[325px]">
+      <div className="relative h-[175px] w-[175px] self-center justify-self-center xs:h-[225px] xs:w-[225px] lg:h-[325px] lg:w-[325px]">
         {imagesArray.map((image, index) => (
           <ImageCarousel
             key={index}
