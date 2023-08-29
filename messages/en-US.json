@@ -76,9 +76,9 @@
     "projects": [
       {
         "name": "Gourmet Shop",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "purpose": "Lorem ipsum 123 dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "description": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "purpose": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "problems": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
         "repoUrl": "/teste",
         "imageUrl": "/images/gourmet-home.png",
         "arrayOfSkills": [
@@ -94,9 +94,9 @@
       },
       {
         "name": "Motion Sneakers",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "purpose": "Lorem ipsum 123 dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "description": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "purpose": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "problems": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
         "repoUrl": "/teste",
         "imageUrl": "/images/motion-home.png",
         "arrayOfSkills": [
@@ -112,9 +112,9 @@
       },
       {
         "name": "Angry Match",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "purpose": "Lorem ipsum 123 dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+        "description": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "purpose": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "problems": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
         "repoUrl": "/teste",
         "imageUrl": "/images/readme-angrymatch-home.png",
         "arrayOfSkills": [

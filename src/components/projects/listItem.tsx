@@ -31,32 +31,33 @@ function ListItem({
 
   return (
     <li className="border-b border-gray-200 py-2">
-      <div className="flex items-center justify-between">
+      <div
+        className="flex cursor-pointer items-center justify-between text-xl"
+        onClick={() => {
+          if (currentDropdown === number) {
+            setCurrentDropdown(null);
+            return;
+          }
+          setCurrentDropdown(number);
+        }}
+      >
         <div>
           <span className="mr-1">0{number}. </span>
           {t(identifyText(number))}
         </div>
         {open ? (
-          <button
-            onClick={() => {
-              setCurrentDropdown(null);
-            }}
-          >
+          <button>
             <MinusIcon />
           </button>
         ) : (
-          <button
-            onClick={() => {
-              setCurrentDropdown(number);
-            }}
-          >
+          <button>
             <AddIcon />
           </button>
         )}
       </div>
       <div
-        className={`ease-cubic-bezier overflow-hidden text-sm transition-all duration-[400ms] ${
-          open ? 'h-40' : 'h-0'
+        className={`overflow-hidden transition-all duration-[400ms] ease-cubic-bezier ${
+          open ? 'h-20' : 'h-0'
         }`}
       >
         <p className="pt-3">

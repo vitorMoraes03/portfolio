@@ -6,26 +6,13 @@ import { useState } from 'react';
 
 function About() {
   const t = useTranslations('About');
-  // const keys = [0, 1, 2, 3, 4, 5, 6, 7];
+  const imgsKeysCarousel = [0, 1, 2];
   const [currentImage, setCurrentImage] = useState(0);
-
-  const imagesArray = [
-    {
-      src: t('arrayOfImages.0.src'),
-      alt: t('arrayOfImages.0.alt'),
-      title: t('arrayOfImages.0.title'),
-    },
-    {
-      src: t('arrayOfImages.1.src'),
-      alt: t('arrayOfImages.1.alt'),
-      title: t('arrayOfImages.1.title'),
-    },
-    {
-      src: t('arrayOfImages.2.src'),
-      alt: t('arrayOfImages.2.alt'),
-      title: t('arrayOfImages.2.title'),
-    },
-  ];
+  const imagesArray = imgsKeysCarousel.map((key) => ({
+    src: t(`arrayOfImages.${key}.src`),
+    alt: t(`arrayOfImages.${key}.alt`),
+    title: t(`arrayOfImages.${key}.name`),
+  }));
 
   return (
     <section className="grid grid-cols-1 pt-28 sm:grid-cols-2">
@@ -97,7 +84,7 @@ function ImageCarousel({
       height={450}
       className={`absolute h-full w-full 
 rounded-full object-cover transition-opacity ${
-        current ? 'opacity-100' : 'opacity-0'
+        current ? 'z-10 opacity-100' : 'z-0 opacity-0'
       }`}
       title={title}
     />

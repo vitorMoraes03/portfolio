@@ -4,8 +4,8 @@ function AddIcon() {
         xmlns="http://www.w3.org/2000/svg"
         className="ionicon text-gray-400"
         viewBox="0 0 512 512"
-        width={20}
-        height={20}
+        width={30}
+        height={30}
       >
         <path
           fill="none"

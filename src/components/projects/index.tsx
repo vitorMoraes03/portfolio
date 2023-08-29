@@ -1,27 +1,20 @@
 import { useTranslations } from 'next-intl';
-import ProjectItem from './projectItem';
+import ProjectImages from './projectImages';
+import ProjectItems from './projectItems';
+import { useState } from 'react';
 
 function Projects() {
   const t = useTranslations('Projects');
+  const [projectSelected, setProjectSelected] = useState(0);
 
   return (
     <section className="pt-28">
       <div>
-        <h2 className="text-2xl">{t(`title`)}</h2>
+        <h2 className="text-3xl">{t(`title`)}?!</h2>
       </div>
-      <div className="pt-5">
-        <ProjectItem
-          keyItem={0}
-          keysSkills={[0, 1, 2, 3, 4, 5, 6, 7]}
-        />
-        <ProjectItem
-          keyItem={1}
-          keysSkills={[0, 1, 2, 3, 4, 5, 6, 7]}
-        />
-        <ProjectItem
-          keyItem={2}
-          keysSkills={[0, 1, 2, 3, 4, 5, 6, 7]}
-        />
+      <div className="grid grid-cols-2 pt-20">
+        <ProjectImages setSelection={setProjectSelected} selectionValue={projectSelected}/>
+        <ProjectItems selectionValue={projectSelected}/>
       </div>
     </section>
   );
