@@ -82,10 +82,8 @@
         "repoUrl": "/teste",
         "imageUrl": "/images/camille-brodard-f6Wpz1QPFZI-unsplash.jpg",
         "arrayOfSkills": [
-          "HTML5",
           "React",
-          "CSS",
-          "JavaScript",
+          "Tailwind",
           "TypeScript",
           "Next.js",
           "Node.js",
@@ -100,12 +98,9 @@
         "repoUrl": "/teste",
         "imageUrl": "/images/vitoristvan_urban_environment_at_night_1.png",
         "arrayOfSkills": [
-          "HTML5",
           "React",
-          "CSS",
           "JavaScript",
-          "TypeScript",
-          "Next.js",
+          "Styled Components",
           "Node.js",
           "MongoDB"
         ]
@@ -118,14 +113,9 @@
         "repoUrl": "/teste",
         "imageUrl": "/images/backgroundimg-green-several-cards.png",
         "arrayOfSkills": [
-          "HTML5",
           "React",
-          "CSS",
-          "JavaScript",
-          "TypeScript",
-          "Next.js",
-          "Node.js",
-          "MongoDB"
+          "Styled Components",
+          "JavaScript"
         ]
       }
     ]

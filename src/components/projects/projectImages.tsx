@@ -28,7 +28,10 @@ function ProjectImages({
   return (
     <div className="flex flex-col gap-1">
       {projectsArray.map((project, index) => (
-        <button onClick={() => setSelection(index)}>
+        <button
+          onClick={() => setSelection(index)}
+          key={`${index}-imgProjects`}
+        >
           <Image
             src={project.src}
             alt={project.name}

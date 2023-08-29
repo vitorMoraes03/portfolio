@@ -1,12 +1,13 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from 'next-intl/link';
 import { useState } from 'react';
 
 function Header() {
   const t = useTranslations('Header');
+  const locale = useLocale();
 
   return (
     <header className="flex justify-between xs:items-center md:grid md:grid-cols-12">
@@ -20,15 +21,29 @@ function Header() {
         <LinksUnderlined text={t('index.certificates')} />
       </div>
       <div className="col-span-1 h-fit justify-self-end">
-        <Link href={'/teste'}>
-          <Image
-            src={'/images/br.png'}
-            alt="brazil flag"
-            width={20}
-            height={20}
-            title="pt-BR"
-          />
-        </Link>
+        {locale === 'en-US' ? (
+          <Link href={'/'} locale="pt-BR">
+            <Image
+              src={'/images/br.png'}
+              alt="brazil flag"
+              width={20}
+              height={20}
+              title="pt-BR"
+              className="h-auto w-auto"
+            />
+          </Link>
+        ) : (
+          <Link href={'/'} locale="en-US">
+            <Image
+              src={'/images/us.png'}
+              alt="usa flag"
+              width={20}
+              height={20}
+              title="en-US"
+              className="h-auto w-auto"
+            />
+          </Link>
+        )}
       </div>
     </header>
   );
