@@ -12,7 +12,7 @@ function Projects() {
   });
 
   return (
-    <section className="min-h-[1000px] md:min-h-[700px] pt-24 md:py-28">
+    <section className="min-h-[1000px] pt-24 md:min-h-[800px] md:py-28 lg:min-h-[700px]">
       <div
         className="flex flex-col justify-between gap-4 
       border-b border-b-gray-200 pb-2 md:flex-row 

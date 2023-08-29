@@ -70,53 +70,33 @@
     "title": "Projects",
     "link": "View project live",
     "description": "Description",
-    "purpose": "Project Purpose and Goal",
-    "problems": "Problems and Tought Process",
+    "goals": "Project Purpose and Goal",
+    "stack": "Stack",
     "repository": "Git hub repository",
     "projects": [
       {
         "name": "Gourmet Shop",
         "description": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
-        "purpose": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
-        "problems": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
-        "repoUrl": "/teste",
+        "goals": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "url": "https://gourmet-shop.vercel.app/",
         "imageUrl": "/images/camille-brodard-f6Wpz1QPFZI-unsplash.jpg",
-        "arrayOfSkills": [
-          "React",
-          "Tailwind",
-          "TypeScript",
-          "Next.js",
-          "Node.js",
-          "MongoDB"
-        ]
+        "stack": "React, Tailwind, TypeScript, Next.js, Node.js, MongoDB"
       },
       {
         "name": "Motion Sneakers",
         "description": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
-        "purpose": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
-        "problems": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
-        "repoUrl": "/teste",
+        "goals": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "url": "https://motionsneakers.netlify.app/",
         "imageUrl": "/images/vitoristvan_urban_environment_at_night_1.png",
-        "arrayOfSkills": [
-          "React",
-          "JavaScript",
-          "Styled Components",
-          "Node.js",
-          "MongoDB"
-        ]
+        "stack": "React, JavaScript, Styled Components, Node.js, MongoDB"
       },
       {
         "name": "Angry Match",
         "description": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
-        "purpose": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
-        "problems": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
-        "repoUrl": "/teste",
+        "goals": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "url": "https://angrymatch.netlify.app/",
         "imageUrl": "/images/backgroundimg-green-several-cards.png",
-        "arrayOfSkills": [
-          "React",
-          "Styled Components",
-          "JavaScript"
-        ]
+        "stack": "React, Styled Components, JavaScript"
       }
     ]
   },

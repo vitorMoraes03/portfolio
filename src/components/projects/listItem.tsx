@@ -61,7 +61,7 @@ function ListItem({
         }`}
       >
         <p className="pt-3">
-          {t(`projects.${keyItem}.${identifyText(number)}`)}
+          {t(`projects.${keyItem}.${identifyText(number)}`)}.
         </p>
       </div>
     </li>
@@ -73,9 +73,9 @@ function identifyText(number: number) {
     case 2:
       return 'description';
     case 3:
-      return 'purpose';
+      return 'goals';
     case 4:
-      return 'problems';
+      return 'stack';
   }
 }
 
