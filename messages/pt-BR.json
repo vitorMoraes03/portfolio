@@ -13,11 +13,58 @@
     "engineer": "Desenvolvedor Front End",
     "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
   },
-  "Bio": {
+  "Offer": {
+    "title": "O que eu posso oferecer...",
+    "items": [
+      {
+        "span": "01",
+        "title": "Comprometimento",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+        "span": "02",
+        "title": "Organização",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+        "span": "03",
+        "title": "Ética de trabalho",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  "About": {
     "title": "Sobre mim",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
     "skills": "Habilidades",
-    "certificate": "Certificados"
+    "certificate": "Certificados",
+    "arrayOfSkills": [
+      "HTML5",
+      "React",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "MongoDB"
+    ],
+    "arrayOfImages": [
+      {
+        "name": "Nova Friburgo",
+        "alt": "Nova Friburgo Panoramic View",
+        "src": "/images/nova-friburgo.png"
+      },
+      {
+        "name": "Rio de Janeiro",
+        "alt": "Rio de Janeiro Panoramic View",
+        "src": "/images/rio-cristo.jpg"
+      },
+      {
+        "name": "Lisbon",
+        "alt": "Lisbon Houses Panoramic View",
+        "src": "/images/lisboa-casas.jpg"
+      }
+    ]
   },
   "Projects": {
     "title": "Projetos",
@@ -28,16 +75,63 @@
     "repository": "Repositório no GitHub",
     "projects": [
       {
-        "name": "Projeto 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "repoUrl": "/teste"
+        "name": "Gourmet Shop",
+        "description": "Gourmet shop é um Gourmet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um",
+        "purpose": "Gourmet shop é um Gourmet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um",
+        "problems": "Gourmet shop é um Gourmet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um Goumet shop é um",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/gourmet-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Motion Sneakers",
+        "description": "Motion Sneakers é uma loja online para venda de tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
+        "purpose": "Motion Sneakers é uma loja online para venda de tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
+        "problems": "Motion Sneakers é uma loja online para venda de tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/motion-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Angry Match",
+        "description": "Angry Match é um jogo de Memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
+        "purpose": "Angry Match é um jogo de Memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
+        "problems": "Angry Match é um jogo de Memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/readme-angrymatch-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
       }
     ]
   },
   "Footer": {
-    "copy": "© 2020 Vitor Moraes. Todos os direitos reservados.",
+    "copy": "© 2023, Desenvolvido por Vitor Moraes.",
     "message": "Entre em contato!",
     "linkedin": "LinkedIn",
     "github": "GitHub",

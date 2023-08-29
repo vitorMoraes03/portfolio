@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+@layer components {
+  .skill-box {
+    @apply mb-1 bg-black px-3 py-1 text-xs font-semibold text-white;
+  }
+}
+
 @font-face {
   font-family: 'PPMori-Extralight';
   src: url('/fonts/PPMori-Extralight.otf')

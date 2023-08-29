@@ -20,6 +20,9 @@ const config: Config = {
         xs: '475px',
         ...defaultTheme.screens,
       },
+      transitionTimingFunction: {
+        'cubic-bezier': 'cubic-bezier(.5,.7,.4,1)',
+      },
     },
     plugins: [],
   },

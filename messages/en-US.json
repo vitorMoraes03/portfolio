@@ -13,11 +13,58 @@
     "engineer": "Front End Developer",
     "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
   },
-  "Bio": {
+  "Offer": {
+    "title": "What I can offer...",
+    "items": [
+      {
+        "span": "01",
+        "title": "Commitment",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+        "span": "02",
+        "title": "Organization",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      },
+      {
+        "span": "03",
+        "title": "Ethics of work",
+        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  "About": {
     "title": "About me",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
     "skills": "Skills",
-    "certificate": "Certificates"
+    "certificate": "Certificates",
+    "arrayOfSkills": [
+      "HTML5",
+      "React",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "MongoDB"
+    ],
+    "arrayOfImages": [
+      {
+        "name": "Nova Friburgo",
+        "alt": "Nova Friburgo Panoramic View",
+        "src": "/images/nova-friburgo.png"
+      },
+      {
+        "name": "Rio de Janeiro",
+        "alt": "Rio de Janeiro Panoramic View",
+        "src": "/images/rio-cristo.jpg"
+      },
+      {
+        "name": "Lisbon",
+        "alt": "Lisbon Houses Panoramic View",
+        "src": "/images/lisboa-casas.jpg"
+      }
+    ]
   },
   "Projects": {
     "title": "Projects",
@@ -28,16 +75,63 @@
     "repository": "Git hub repository",
     "projects": [
       {
-        "name": "Project 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "problems": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
-        "repoUrl": "/teste"
+        "name": "Gourmet Shop",
+        "description": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "purpose": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "problems": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/gourmet-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Motion Sneakers",
+        "description": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "purpose": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "problems": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/motion-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Angry Match",
+        "description": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "purpose": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "problems": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "repoUrl": "/teste",
+        "imageUrl": "/images/readme-angrymatch-home.png",
+        "arrayOfSkills": [
+          "HTML5",
+          "React",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Next.js",
+          "Node.js",
+          "MongoDB"
+        ]
       }
     ]
   },
   "Footer": {
-    "copy": "© 2020 Vitor Moraes. All rights reserved.",
+    "copy": "© 2023, Built by Vitor Moraes.",
     "message": "Get in touch!",
     "linkedin": "Linkedin",
     "github": "Github",
