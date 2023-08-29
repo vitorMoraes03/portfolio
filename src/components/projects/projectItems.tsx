@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import ListItem from './listItem';
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 interface ProjectItemsProps {
   selectionValue: number;
@@ -11,6 +13,7 @@ function ProjectItems({
   const [currentDropdown, setCurrentDropdown] = useState<
     number | null
   >(null);
+  const t = useTranslations('Projects');
 
   return (
     <div>
@@ -33,6 +36,15 @@ function ProjectItems({
           setCurrentDropdown={setCurrentDropdown}
           currentDropdown={currentDropdown}
         />
+        <li className="border-b border-gray-200 py-4">
+          <Link
+            href={`/projects/${selectionValue}`}
+            className="text-xl"
+          >
+            <span className="mr-1">04. </span>
+            {t(`link`)}
+          </Link>
+        </li>
       </ul>
     </div>
   );

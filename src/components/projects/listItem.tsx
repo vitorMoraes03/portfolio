@@ -30,7 +30,7 @@ function ListItem({
   }, [currentDropdown]);
 
   return (
-    <li className="border-b border-gray-200 py-2">
+    <li className="border-b border-gray-200 py-4">
       <div
         className="flex cursor-pointer items-center justify-between text-xl"
         onClick={() => {
