@@ -41,9 +41,9 @@ function ListItem({
           setCurrentDropdown(number);
         }}
       >
-        <div>
+        <div className='flex'>
           <span className="mr-1">0{number}. </span>
-          {t(identifyText(number))}
+          <p className='w-[80%]'>{t(identifyText(number))}</p>
         </div>
         {open ? (
           <button>

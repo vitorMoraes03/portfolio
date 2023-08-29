@@ -12,11 +12,15 @@ function Projects() {
   });
 
   return (
-    <section className="py-28 min-h-[700px]">
-      <div className="flex justify-between border-b border-b-gray-200">
+    <section className="min-h-[1000px] md:min-h-[700px] pt-24 md:py-28">
+      <div
+        className="flex flex-col justify-between gap-4 
+      border-b border-b-gray-200 pb-2 md:flex-row 
+      md:items-center md:gap-0 md:pb-0"
+      >
         <h2 className="text-2xl">{t(`title`)}</h2>
         <div>
-          <ul className="flex">
+          <ul className="flex text-center leading-tight">
             {projectsNames.map((name, index) => {
               return (
                 <li
@@ -35,7 +39,7 @@ function Projects() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-2 pt-28">
+      <div className="grid gap-12 pt-10 md:grid-cols-2 md:gap-0 md:pt-28">
         <ProjectImages
           setSelection={setProjectSelected}
           selectionValue={projectSelected}

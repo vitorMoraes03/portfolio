@@ -21,10 +21,10 @@ function ProjectItems({
         <li className="border-b border-gray-200 py-4">
           <Link
             href={`/projects/${selectionValue}`}
-            className="text-xl"
+            className="flex text-xl"
           >
             <span className="mr-1">01. </span>
-            {t(`link`)}
+            <p className="w-[80%]">{t(`link`)}</p>
           </Link>
         </li>
         <ListItem
