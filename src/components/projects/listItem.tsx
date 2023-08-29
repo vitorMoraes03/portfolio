@@ -70,11 +70,11 @@ function ListItem({
 
 function identifyText(number: number) {
   switch (number) {
-    case 1:
-      return 'description';
     case 2:
-      return 'purpose';
+      return 'description';
     case 3:
+      return 'purpose';
+    case 4:
       return 'problems';
   }
 }

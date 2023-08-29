@@ -18,12 +18,15 @@ function ProjectItems({
   return (
     <div>
       <ul>
-        <ListItem
-          number={1}
-          keyItem={selectionValue}
-          setCurrentDropdown={setCurrentDropdown}
-          currentDropdown={currentDropdown}
-        />
+        <li className="border-b border-gray-200 py-4">
+          <Link
+            href={`/projects/${selectionValue}`}
+            className="text-xl"
+          >
+            <span className="mr-1">01. </span>
+            {t(`link`)}
+          </Link>
+        </li>
         <ListItem
           number={2}
           keyItem={selectionValue}
@@ -36,15 +39,12 @@ function ProjectItems({
           setCurrentDropdown={setCurrentDropdown}
           currentDropdown={currentDropdown}
         />
-        <li className="border-b border-gray-200 py-4">
-          <Link
-            href={`/projects/${selectionValue}`}
-            className="text-xl"
-          >
-            <span className="mr-1">04. </span>
-            {t(`link`)}
-          </Link>
-        </li>
+        <ListItem
+          number={4}
+          keyItem={selectionValue}
+          setCurrentDropdown={setCurrentDropdown}
+          currentDropdown={currentDropdown}
+        />
       </ul>
     </div>
   );
