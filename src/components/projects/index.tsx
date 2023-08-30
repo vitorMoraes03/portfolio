@@ -3,7 +3,7 @@ import ProjectImages from './projectImages';
 import ProjectItems from './projectItems';
 import { useState } from 'react';
 
-function Projects({ projectsRef }: { projectsRef: any }) {
+function Projects() {
   const t = useTranslations('Projects');
   const keysOfProjects = [0, 1, 2];
   const [projectSelected, setProjectSelected] = useState(0);
@@ -14,7 +14,7 @@ function Projects({ projectsRef }: { projectsRef: any }) {
   return (
     <section
       className="min-h-[1000px] pt-24 md:min-h-[800px] md:py-28 lg:min-h-[700px]"
-      ref={projectsRef}
+      id='projects'
     >
       <div
         className="flex flex-col justify-between gap-4 

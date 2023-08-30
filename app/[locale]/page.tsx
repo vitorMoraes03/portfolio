@@ -9,17 +9,14 @@ import Projects from '@/components/projects';
 import { useRef } from 'react';
 
 export default function Home() {
-  const aboutRef = useRef(null);
-  const projectsRef = useRef(null);
-
   return (
     <div>
-      <Header aboutRef={aboutRef} projectsRef={projectsRef} />
+      <Header />
       <main>
         <Hero />
         <Offer />
-        <About aboutRef={aboutRef}/>
-        <Projects projectsRef={projectsRef}/>
+        <About />
+        <Projects />
       </main>
       <Footer />
     </div>

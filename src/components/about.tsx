@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState } from 'react';
 
-function About({ aboutRef }: { aboutRef: any }) {
+function About() {
   const t = useTranslations('About');
   const imgsKeysCarousel = [0, 1, 2];
   const [currentImage, setCurrentImage] = useState(0);
@@ -17,7 +17,7 @@ function About({ aboutRef }: { aboutRef: any }) {
   return (
     <section
       className="grid grid-cols-1 gap-12 pt-28 sm:grid-cols-2 sm:gap-0"
-      ref={aboutRef}
+      id='about'
     >
       <div className="pr-10">
         <h2 className="text-3xl">{t('title')}</h2>

@@ -3,21 +3,11 @@
 import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next-intl/link';
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import LinksUnderlined from './links';
 
-interface HeaderProps {
-  aboutRef: any;
-  projectsRef: any;
-}
-
-function Header({ aboutRef, projectsRef }: HeaderProps) {
+function Header() {
   const t = useTranslations('Header');
   const locale = useLocale();
-
-  // about e projects vai mover a tela p eles
-  // contact vai abrir o outlook
-  // curriculo, download curriculo
 
   return (
     <header className="flex justify-between xs:items-center md:grid md:grid-cols-12">
@@ -27,15 +17,18 @@ function Header({ aboutRef, projectsRef }: HeaderProps) {
       <div className="col-span-6 flex flex-col items-start gap-1 xs:flex-row xs:gap-6 lg:gap-10">
         <LinksUnderlined
           text={t('index.about')}
-          refHtml={aboutRef}
+          idForLink="/#about"
+          targetBlank={false}
         />
         <LinksUnderlined
           text={t('index.projects')}
-          refHtml={projectsRef}
+          idForLink="/#projects"
+          targetBlank={false}
         />
         <LinksUnderlined
           text={t('index.contact')}
-          linkEmail="mailto:vitoristvan@hotmail.com"
+          idForLink="mailto:vitoristvan@hotmail.com"
+          targetBlank={true}
         />
       </div>
       <div className="col-span-1 h-fit justify-self-end">
@@ -64,54 +57,6 @@ function Header({ aboutRef, projectsRef }: HeaderProps) {
         )}
       </div>
     </header>
-  );
-}
-
-export function LinksUnderlined({
-  text,
-  refHtml,
-  linkEmail,
-}: {
-  text: string;
-  refHtml?: any;
-  linkEmail?: string;
-}) {
-  const [mouseEnter, setMouseEnter] = useState(false);
-  const router = useRouter();
-
-  return (
-    <div
-      className="relative"
-      onMouseEnter={() => setMouseEnter(true)}
-      onMouseLeave={() => setMouseEnter(false)}
-    >
-      <button
-        className="hover:text-underlined"
-        onClick={() => {
-          refHtml &&
-            refHtml.current.scrollIntoView({
-              behavior: 'smooth',
-            });
-          linkEmail && router.push(linkEmail);
-        }}
-      >
-        {text}
-      </button>
-      <span
-        className="z-2 absolute bottom-[2px] left-0 h-px w-full bg-black"
-        style={{
-          willChange: 'transform, color',
-          transform: mouseEnter ? 'scaleX(1)' : 'scaleX(0)',
-          transformOrigin: mouseEnter
-            ? '0% 50%'
-            : '100% 50%',
-          transition:
-            'transform 0.45s, -webkit-transform 0.45s',
-          transitionTimingFunction:
-            'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
-        }}
-      />
-    </div>
   );
 }
 
