@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next-intl/link';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface HeaderProps {
   aboutRef: any;
@@ -32,7 +33,10 @@ function Header({ aboutRef, projectsRef }: HeaderProps) {
           text={t('index.projects')}
           refHtml={projectsRef}
         />
-        <LinksUnderlined text={t('index.contact')} />
+        <LinksUnderlined
+          text={t('index.contact')}
+          linkEmail="mailto:vitoristvan@hotmail.com"
+        />
       </div>
       <div className="col-span-1 h-fit justify-self-end">
         {locale === 'en-US' ? (
@@ -66,11 +70,14 @@ function Header({ aboutRef, projectsRef }: HeaderProps) {
 export function LinksUnderlined({
   text,
   refHtml,
+  linkEmail,
 }: {
   text: string;
   refHtml?: any;
+  linkEmail?: string;
 }) {
   const [mouseEnter, setMouseEnter] = useState(false);
+  const router = useRouter();
 
   return (
     <div
@@ -80,12 +87,13 @@ export function LinksUnderlined({
     >
       <button
         className="hover:text-underlined"
-        onClick={() =>
+        onClick={() => {
           refHtml &&
-          refHtml.current.scrollIntoView({
-            behavior: 'smooth',
-          })
-        }
+            refHtml.current.scrollIntoView({
+              behavior: 'smooth',
+            });
+          linkEmail && router.push(linkEmail);
+        }}
       >
         {text}
       </button>
