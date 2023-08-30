@@ -5,7 +5,12 @@ import Image from 'next/image';
 import Link from 'next-intl/link';
 import { useState } from 'react';
 
-function Header() {
+interface HeaderProps {
+  aboutRef: any;
+  projectsRef: any;
+}
+
+function Header({ aboutRef, projectsRef }: HeaderProps) {
   const t = useTranslations('Header');
   const locale = useLocale();
 
@@ -19,8 +24,14 @@ function Header() {
         <h3>{t('logo')}</h3>
       </div>
       <div className="col-span-6 flex flex-col items-start gap-1 xs:flex-row xs:gap-6 lg:gap-10">
-        <LinksUnderlined text={t('index.about')} />
-        <LinksUnderlined text={t('index.projects')} />
+        <LinksUnderlined
+          text={t('index.about')}
+          refHtml={aboutRef}
+        />
+        <LinksUnderlined
+          text={t('index.projects')}
+          refHtml={projectsRef}
+        />
         <LinksUnderlined text={t('index.contact')} />
       </div>
       <div className="col-span-1 h-fit justify-self-end">
@@ -54,8 +65,10 @@ function Header() {
 
 export function LinksUnderlined({
   text,
+  refHtml,
 }: {
   text: string;
+  refHtml?: any;
 }) {
   const [mouseEnter, setMouseEnter] = useState(false);
 
@@ -65,7 +78,15 @@ export function LinksUnderlined({
       onMouseEnter={() => setMouseEnter(true)}
       onMouseLeave={() => setMouseEnter(false)}
     >
-      <button className="hover:text-underlined">
+      <button
+        className="hover:text-underlined"
+        onClick={() =>
+          refHtml &&
+          refHtml.current.scrollIntoView({
+            behavior: 'smooth',
+          })
+        }
+      >
         {text}
       </button>
       <span

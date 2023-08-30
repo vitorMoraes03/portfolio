@@ -3,7 +3,7 @@ import ProjectImages from './projectImages';
 import ProjectItems from './projectItems';
 import { useState } from 'react';
 
-function Projects() {
+function Projects({ projectsRef }: { projectsRef: any }) {
   const t = useTranslations('Projects');
   const keysOfProjects = [0, 1, 2];
   const [projectSelected, setProjectSelected] = useState(0);
@@ -12,7 +12,10 @@ function Projects() {
   });
 
   return (
-    <section className="min-h-[1000px] pt-24 md:min-h-[800px] md:py-28 lg:min-h-[700px]">
+    <section
+      className="min-h-[1000px] pt-24 md:min-h-[800px] md:py-28 lg:min-h-[700px]"
+      ref={projectsRef}
+    >
       <div
         className="flex flex-col justify-between gap-4 
       border-b border-b-gray-200 pb-2 md:flex-row 
