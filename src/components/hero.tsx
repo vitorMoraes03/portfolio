@@ -1,5 +1,6 @@
 'use client';
 
+import CurriculumIcon from '@/icons/curriculum';
 import EmailIcon from '@/icons/email';
 import GitHubIcon from '@/icons/github';
 import LinkedInIcon from '@/icons/linkedIn';
@@ -56,14 +57,14 @@ function LinkProps({ href, title, children }: LinkProps) {
 export function MediaLinks() {
   return (
     <div className="flex gap-2">
-      <LinkProps href={'/'} title="Email">
-        <EmailIcon />
-      </LinkProps>
       <LinkProps href={'/'} title="Linkedin">
         <LinkedInIcon />
       </LinkProps>
       <LinkProps href={'/'} title="GitHub">
         <GitHubIcon />
+      </LinkProps>
+      <LinkProps href={'/'} title="Curriculum">
+        <CurriculumIcon />
       </LinkProps>
     </div>
   );

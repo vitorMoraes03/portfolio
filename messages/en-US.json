@@ -4,8 +4,7 @@
     "index": {
       "about": "About",
       "projects": "Projects",
-      "contact": "Contact",
-      "certificates": "Certificates"
+      "contact": "Contact"
     }
   },
   "Hero": {

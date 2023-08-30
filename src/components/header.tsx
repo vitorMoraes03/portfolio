@@ -9,6 +9,10 @@ function Header() {
   const t = useTranslations('Header');
   const locale = useLocale();
 
+  // about e projects vai mover a tela p eles
+  // contact vai abrir o outlook
+  // curriculo, download curriculo
+
   return (
     <header className="flex justify-between xs:items-center md:grid md:grid-cols-12">
       <div className="col-span-5 hidden md:inline-block">
@@ -18,7 +22,6 @@ function Header() {
         <LinksUnderlined text={t('index.about')} />
         <LinksUnderlined text={t('index.projects')} />
         <LinksUnderlined text={t('index.contact')} />
-        <LinksUnderlined text={t('index.certificates')} />
       </div>
       <div className="col-span-1 h-fit justify-self-end">
         {locale === 'en-US' ? (
