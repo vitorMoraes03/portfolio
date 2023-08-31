@@ -1,11 +1,12 @@
 'use client';
 
-import EmailIcon from '@/icons/email';
+import CurriculumIcon from '@/icons/curriculum';
 import GitHubIcon from '@/icons/github';
 import LinkedInIcon from '@/icons/linkedIn';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useLocale } from 'next-intl';
 
 function Hero() {
   const t = useTranslations('Hero');
@@ -47,6 +48,7 @@ function LinkProps({ href, title, children }: LinkProps) {
       href={href}
       title={title}
       className="hover:opacity-70"
+      target="_blank"
     >
       {children}
     </Link>
@@ -54,16 +56,31 @@ function LinkProps({ href, title, children }: LinkProps) {
 }
 
 export function MediaLinks() {
+  const locale = useLocale();
+
   return (
     <div className="flex gap-2">
-      <LinkProps href={'/'} title="Email">
-        <EmailIcon />
-      </LinkProps>
-      <LinkProps href={'/'} title="Linkedin">
+      <LinkProps
+        href={'https://www.linkedin.com/in/vitorr-moraes/'}
+        title="Linkedin"
+      >
         <LinkedInIcon />
       </LinkProps>
-      <LinkProps href={'/'} title="GitHub">
+      <LinkProps
+        href={'https://github.com/vitorMoraes03'}
+        title="GitHub"
+      >
         <GitHubIcon />
+      </LinkProps>
+      <LinkProps
+        href={
+          locale === 'pt-BR'
+            ? 'https://drive.google.com/file/d/1umKmJ_adpBfFATmRwUxbjz1Jy_bmDNMF/view'
+            : 'https://drive.google.com/file/d/1sYDF2dGqZag24nMiSv0UJatJqcMgod1t/view'
+        }
+        title="Curriculum"
+      >
+        <CurriculumIcon />
       </LinkProps>
     </div>
   );

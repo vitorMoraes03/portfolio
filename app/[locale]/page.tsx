@@ -6,6 +6,7 @@ import Header from '@/components/header';
 import Hero from '@/components/hero';
 import Offer from '@/components/offer';
 import Projects from '@/components/projects';
+import { useRef } from 'react';
 
 export default function Home() {
   return (

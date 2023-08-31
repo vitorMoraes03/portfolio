@@ -4,8 +4,7 @@
     "index": {
       "about": "About",
       "projects": "Projects",
-      "contact": "Contact",
-      "certificates": "Certificates"
+      "contact": "Contact"
     }
   },
   "Hero": {
@@ -68,7 +67,7 @@
   },
   "Projects": {
     "title": "Projects",
-    "link": "View project live",
+    "link": "View project",
     "description": "Description",
     "goals": "Project Purpose and Goal",
     "stack": "Stack",
