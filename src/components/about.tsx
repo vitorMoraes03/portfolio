@@ -13,11 +13,12 @@ function About() {
     alt: t(`arrayOfImages.${key}.alt`),
     title: t(`arrayOfImages.${key}.name`),
   }));
+  const iconStyles = 'w-8 h-8 lg:w-10 lg:h-10';
 
   return (
     <section
       className="grid grid-cols-1 gap-12 pt-28 sm:grid-cols-2 sm:gap-0"
-      id='about'
+      id="about"
     >
       <div className="pr-10">
         <h2 className="text-3xl">{t('title')}</h2>
@@ -25,7 +26,7 @@ function About() {
           <p>{t('text')}</p>
         </div>
       </div>
-      <div className="relative h-[175px] w-[175px] self-center justify-self-center xs:h-[225px] xs:w-[225px] lg:h-[325px] lg:w-[325px]">
+      <div className="relative h-[225px] w-[225px] self-center justify-self-center lg:h-[325px] lg:w-[325px]">
         {imagesArray.map((image, index) => (
           <ImageCarousel
             key={index}
@@ -46,7 +47,7 @@ function About() {
             setCurrentImage(currentImage - 1);
           }}
         >
-          <ArrowLeftIcon />
+          <ArrowLeftIcon stylesProps={iconStyles} />
         </button>
         <button
           className={`absolute -right-12 top-1/2 -translate-y-1/2 
@@ -61,7 +62,7 @@ function About() {
             setCurrentImage(currentImage + 1);
           }}
         >
-          <ArrowRightIcon />
+          <ArrowRightIcon stylesProps={iconStyles} />
         </button>
       </div>
     </section>

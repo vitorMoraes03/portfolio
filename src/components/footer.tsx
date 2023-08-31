@@ -22,12 +22,12 @@ function Footer() {
   ];
 
   return (
-    <footer className="flex flex-col justify-between gap-2 border-t py-3 text-[10px] opacity-80 xs:flex-row xs:items-center xs:gap-0">
+    <footer className="flex flex-col justify-between gap-3 border-t py-3 text-sm opacity-80 xs:flex-row xs:items-center xs:gap-0">
       <div>
         <p>{t('copy')}</p>
       </div>
       <div>
-        <ul className="flex flex-col xs:flex-row xs:gap-2">
+        <ul className="flex flex-col xs:flex-row gap-[1px] xs:gap-2">
           {mediaLinks.map((obj, index) => (
             <li
               key={`${index}-${obj.text}`}
