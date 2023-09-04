@@ -10,7 +10,7 @@
   "Hero": {
     "hello": "Olá, eu sou o Vitor Moraes",
     "engineer": "Desenvolvedor Front End",
-    "text": "Apaixonado por explorar e aprender sobre coisas novas, com foco em Typescript e React."
+    "text": "Apaixonado por explorar e aprender coisas novas, com foco em Typescript e React."
   },
   "Offer": {
     "title": "Curiosidades sobre mim...",
@@ -37,15 +37,15 @@
     "text": [
       {
         "span": "Por que a tecnologia?",
-        "paragraph": "Meu interesse em explorar uma nova carreira profissional surgiu da minha paixão por resolver problemas e aprender constantemente. Acredito que a área de tecnologia se alinha perfeitamente com as habilidades que desenvolvi por meio de projetos e estudos teóricos."
+        "paragraph": "Meu interesse em explorar uma nova carreira profissional surgiu da minha paixão por resolver problemas, aprender sempre e desenvolver projetos."
       },
       {
-        "span": "Processo.",
-        "paragraph": "Minha transição de carreira foi gradual. Comecei a estudar JavaScript aos poucos para garantir que estava tomando a decisão certa. No final de 2022, optei por participar do BootCamp de Desenvolvimento Web da IronHack. Desde então, tenho aprofundado meus conhecimentos em novas tecnologias e consolidado minha base de programação por meio da prática."
+        "span": "Transição.",
+        "paragraph": "Comecei estudando JavaScript para ter certeza se estava tomando a decisão correta. No final de 2022, optei por participar do BootCamp de Desenvolvimento Web da IronHack. Desde então, tenho aprofundado meus conhecimentos em programação e praticado bastante."
       },
       {
         "span": "O que posso oferecer?",
-        "paragraph": "Certas habilidades são fundamentais em qualquer campo. Com base em minhas experiências anteriores, destaco minha capacidade de resolver problemas, minha dedicação e minha habilidade de cumprir prazos."
+        "paragraph": "Certas habilidades são fundamentais em qualquer campo,  por isso destaco minha capacidade de resolver desafios, minha dedicação e minha habilidade de cumprir prazos."
       }
     ],
     "skills": "Habilidades",
