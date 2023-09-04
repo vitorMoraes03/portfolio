@@ -10,43 +10,46 @@
   "Hero": {
     "hello": "Olá, eu sou o Vitor Moraes",
     "engineer": "Desenvolvedor Front End",
-    "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
+    "text": "Apaixonado por explorar e aprender sobre coisas novas, com foco em Typescript e React."
   },
   "Offer": {
-    "title": "O que eu posso oferecer...",
+    "title": "Curiosidades sobre mim ",
     "items": [
       {
-        "span": "01",
+        "span": "👨‍🍳",
+        "title": "Chef de Cozinha",
+        "text": "Antes de ingressar na área de tecnologia, atuei como Chef de Cozinha por uma década, colaborando com equipes excepcionais e profissionais de destaque na área."
+      },
+      {
+        "span": "✈️",
+        "title": "Alguns quilômetros rodados",
+        "text": "Nasci na capital do Rio de Janeiro, mas logo me mudei para Nova Friburgo, região serrana do estado. Depois, já na jornada profissional, morei em São Paulo e Lisboa."
+      },
+      {
+        "span": "🤝",
         "title": "Comprometimento",
-        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
-      },
-      {
-        "span": "02",
-        "title": "Organização",
-        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
-      },
-      {
-        "span": "03",
-        "title": "Ética de trabalho",
-        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+        "text": "Tenho muito respeito pelo ambiente de trabalho e sempre abordo minhas tarefas com interesse e colaboração."
       }
     ]
   },
   "About": {
     "title": "Sobre mim",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+    "text": [
+      {
+        "span": "Por que a tecnologia?",
+        "paragraph": "Meu interesse em explorar uma nova carreira profissional surgiu da minha paixão por resolver problemas e aprender constantemente. Acredito que a área de tecnologia se alinha perfeitamente com as habilidades que desenvolvi por meio de projetos e estudos teóricos."
+      },
+      {
+        "span": "Processo.",
+        "paragraph": "Minha transição de carreira foi gradual. Comecei a estudar JavaScript aos poucos para garantir que estava tomando a decisão certa. No final de 2022, optei por participar do BootCamp de Desenvolvimento Web da IronHack. Desde então, tenho aprofundado meus conhecimentos em novas tecnologias e consolidado minha base de programação por meio da prática."
+      },
+      {
+        "span": "O que posso oferecer?",
+        "paragraph": "Certas habilidades são fundamentais em qualquer campo. Com base em minhas experiências anteriores, destaco minha capacidade de resolver problemas, minha dedicação e minha habilidade de cumprir prazos."
+      }
+    ],
     "skills": "Habilidades",
     "certificate": "Certificados",
-    "arrayOfSkills": [
-      "HTML5",
-      "React",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "Next.js",
-      "Node.js",
-      "MongoDB"
-    ],
     "arrayOfImages": [
       {
         "name": "Nova Friburgo",
@@ -69,30 +72,30 @@
     "title": "Projetos",
     "link": "Ver projeto",
     "description": "Descrição",
-    "goals": "Propósito e Objetivo do Projeto",
+    "goals": "Metas e Desafios",
     "stack": "Stack",
     "repository": "Repositório no GitHub",
     "projects": [
       {
         "name": "Gourmet Shop",
-        "description": "Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet.",
-        "goals": "Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet Gourmet Shop é uma loja gourmet.",
+        "description": "Desenvolvi uma loja online de produtos gourmet usando Next.js e Typescript. Utilizei Node.js para o lado do servidor e me inspirei em um site comercial de suplementos saudáveis para o design do projeto.",
+        "goals": "Desenvolver utilizando uma linguagem mais tipada, me familiarizar com o Next.js utilizando suas principais ferramentas, e praticar Tailwind. Ainda pretendo implementar autenticação, checkout, carrinho de compras e um blog no projeto. O desafio incluiu lidar com layouts diferentes para desktop e mobile, e com o uso de Typescript, que, embora auxilie na prevenção de erros, também trouxe desafios de tipagem.",
         "url": "https://gourmet-shop.vercel.app/",
         "imageUrl": "/images/camille-brodard-f6Wpz1QPFZI-unsplash.jpg",
         "stack": "React, Tailwind, TypeScript, Next.js, Node.js, MongoDB"
       },
       {
         "name": "Motion Sneakers",
-        "description": "Motion Sneakers é uma loja online para vender tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
-        "goals": "Motion Sneakers é uma loja online para vender tênis. O projeto é construído com React e obtém dados por meio de uma API Node. Os usuários podem se inscrever e fazer compras. O projeto não possui fins comerciais.",
+        "description": "O Motion Sneakers é uma loja online de tênis, um projeto Full Stack criado com React e Node.js. Ele inclui um sistema de login, lista de produtos e funcionalidades de filtragem. Toda a arte foi desenvolvida no MidJourney.",
+        "goals": "Construir uma API usando Express.js, definir modelos e rotas, além da implementar a autenticação. Também pratiquei o uso do React para construir o Front End e explorei o uso de Styled Components. Todos os dados dos produtos são baixados em uma única requisição, embora essa abordagem não seja totalmente realista, ela me permitiu aprofundar meu conhecimento em manipulação de arrays e enfrentar desafios de filtragem múltipla.",
         "url": "https://motionsneakers.netlify.app/",
         "imageUrl": "/images/vitoristvan_urban_environment_at_night_1.png",
         "stack": "React, JavaScript, Styled Components, Node.js, MongoDB"
       },
       {
         "name": "Angry Match",
-        "description": "Angry Match é um jogo de memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
-        "goals": "Angry Match é um jogo de memória onde você pode escolher o tema das suas cartas. Nosso mascote fica facilmente irritado, então preste muita atenção.",
+        "description": "Angry Match é um jogo da memória desenvolvido em React, com o uso de uma API para imagens. Este foi meu primeiro projeto durante o Bootcamp.",
+        "goals": "Angry Match é um jogo da memória desenvolvido em React, com o uso de uma API para imagens. Este foi meu primeiro projeto durante o Bootcamp.",
         "url": "https://angrymatch.netlify.app/",
         "imageUrl": "/images/backgroundimg-green-several-cards.png",
         "stack": "React, JavaScript, Styled Components"

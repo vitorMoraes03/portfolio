@@ -23,7 +23,19 @@ function About() {
       <div className="pr-10">
         <h2 className="text-3xl">{t('title')}</h2>
         <div className="pt-6">
-          <p>{t('text')}</p>
+          {/* criar LOOP */}
+          <p>
+            <span className='ml-1'>{t('text.0.span')} </span>
+            {t('text.0.paragraph')}
+          </p>
+          <p>
+            <span className='ml-1'>{t('text.1.span')} </span>
+            {t('text.1.paragraph')}
+          </p>
+          <p>
+            <span className='ml-1'>{t('text.2.span')} </span>
+            {t('text.2.paragraph')}
+          </p>
         </div>
       </div>
       <div className="relative h-[225px] w-[225px] self-center justify-self-center lg:h-[325px] lg:w-[325px]">
