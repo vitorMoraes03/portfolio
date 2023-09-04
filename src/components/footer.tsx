@@ -22,7 +22,7 @@ function Footer() {
   ];
 
   return (
-    <footer className="flex flex-col justify-between gap-3 border-t py-3 text-sm opacity-80 xs:flex-row xs:items-center xs:gap-0">
+    <footer className="flex flex-col justify-between gap-3 border-t py-3 text-sm opacity-80 xs:flex-row xs:items-center xs:gap-0 mt-36 lg:mt-44">
       <div>
         <p>{t('copy')}</p>
       </div>

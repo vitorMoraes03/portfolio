@@ -9,44 +9,47 @@
   },
   "Hero": {
     "hello": "Hello, I'm Vitor Moraes",
-    "engineer": "Front End Developer",
-    "text": "Lorem ipsum dolor sit amet, 😀 consectetur adipiscing 🚀 elit. Nulla vitae diam 🌟 euismod."
+    "engineer": "Web Developer",
+    "text": "Passionate about exploring and learning new things, with a focus on Typescript and React."
   },
   "Offer": {
-    "title": "What I can offer...",
+    "title": "Fun facts about me...",
     "items": [
       {
         "span": "01",
-        "title": "Commitment",
-        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+        "title": "Chef",
+        "text": "Before going into the technology field, I worked as a Chef de Cuisine for a decade, collaborating with exceptional teams and prominent professionals in the field."
       },
       {
         "span": "02",
-        "title": "Organization",
-        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+        "title": "A Few Miles Traveled",
+        "text": "I was born in Rio de Janeiro, but soon moved to Nova Friburgo, in the countryside of the state. Later, in my professional journey, I lived in São Paulo and Lisbon."
       },
       {
         "span": "03",
-        "title": "Ethics of work",
-        "text": "Puxar o texto para coisas mais palpaveis... Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet."
+        "title": "Commitment",
+        "text": "I have a great respect for the work environment and always approach my tasks with interest and collaboration."
       }
     ]
   },
   "About": {
     "title": "About me",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae diam euismod, ultrices turp",
+    "text": [
+      {
+        "span": "Why technology?",
+        "paragraph": "My interest in exploring a new career path was ignited by my passion for solving problems and constantly learning. I believe the technology field aligns perfectly with the skills I developed through projects and studies."
+      },
+      {
+        "span": "Process.",
+        "paragraph": "My career transition was gradual. I started studying JavaScript slowly to ensure I was making the right decision. By the end of 2022, I chose to participate in the IronHack Web Development Bootcamp. Since then, I have deepened my knowledge in new technologies and solidified my programming foundation through practice."
+      },
+      {
+        "span": "What I Can Offer?",
+        "paragraph": "Certain skills are essential in any field. Based on my previous experiences, I highlight my problem-solving ability, dedication, and deadline-oriented skills."
+      }
+    ],
     "skills": "Skills",
     "certificate": "Certificates",
-    "arrayOfSkills": [
-      "HTML5",
-      "React",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "Next.js",
-      "Node.js",
-      "MongoDB"
-    ],
     "arrayOfImages": [
       {
         "name": "Nova Friburgo",
@@ -69,30 +72,30 @@
     "title": "Projects",
     "link": "View project",
     "description": "Description",
-    "goals": "Project Purpose and Goal",
+    "goals": "Goals and Challenges",
     "stack": "Stack",
     "repository": "Git hub repository",
     "projects": [
       {
         "name": "Gourmet Shop",
-        "description": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
-        "goals": "Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is Gourmet shop is.",
+        "description": "I developed an online gourmet product store using Next.js and Typescript. I used Node.js for the server-side and got inspiration from a commercial website for healthy supplements for the project's design.",
+        "goals": "To develop using a more typed language, become familiar with Next.js using its main tools, and practice Tailwind. I also plan to implement authentication, checkout, shopping cart, and a blog in the project. The challenge included dealing with different layouts for desktop and mobile and using Typescript, which, while helpful in error prevention, also brought typing challenges.",
         "url": "https://gourmet-shop.vercel.app/",
         "imageUrl": "/images/camille-brodard-f6Wpz1QPFZI-unsplash.jpg",
         "stack": "React, Tailwind, TypeScript, Next.js, Node.js, MongoDB"
       },
       {
         "name": "Motion Sneakers",
-        "description": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
-        "goals": "Motion Sneakers is an online store for selling sneakers. The project is built with React and fetches data through a Node API. Users can sign up and make purchases. The project is non-commercial in nature.",
+        "description": "The challenge included dealing with different layouts for desktop and mobile and using Typescript, which, while helpful in error prevention, also brought typing challenges.",
+        "goals": "Build an API using Express.js, define models and routes, as well as implement authentication. I also practiced using React to build the Front End and explored the use of Styled Components. All product data is downloaded in a single request, although this approach is not entirely realistic, it allowed me to deepen my knowledge in array manipulation and dealing with multiple filtering challenges.",
         "url": "https://motionsneakers.netlify.app/",
         "imageUrl": "/images/vitoristvan_urban_environment_at_night_1.png",
         "stack": "React, JavaScript, Styled Components, Node.js, MongoDB"
       },
       {
         "name": "Angry Match",
-        "description": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
-        "goals": "Angry Match it is a Memory game where you can choose the theme of your cards. Our mascot gets easily annoyed, so pay close attention.",
+        "description": "Angry Match is a memory game developed in React, with the use of an image API. This was my first project during the Bootcamp.",
+        "goals": "Developing skills in React and programming logic was the primary goal, especially in handling game variables such as victory, defeat, points, and card behavior. Programming logic was the greatest challenge, where, due to lack of experience, I made misguided decisions in approaching certain problems.",
         "url": "https://angrymatch.netlify.app/",
         "imageUrl": "/images/backgroundimg-green-several-cards.png",
         "stack": "React, Styled Components, JavaScript"

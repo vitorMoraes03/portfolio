@@ -13,7 +13,8 @@ function Projects() {
 
   return (
     <section
-      className="min-h-[1000px] pt-24 md:min-h-[800px] md:py-28 lg:min-h-[700px]"
+      // className="min-h-[1000px] pt-24 md:min-h-[900px] md:pt-28 lg:min-h-[700px]"
+      className="pt-24 md:pt-28"
       id='projects'
     >
       <div

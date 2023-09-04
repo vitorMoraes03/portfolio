@@ -12,7 +12,7 @@ function Hero() {
   const t = useTranslations('Hero');
 
   return (
-    <section className="flex flex-col items-center pt-20 md:grid md:grid-cols-11 md:items-start">
+    <section className="flex flex-col  pt-20 md:grid md:grid-cols-11 items-start">
       <div className="md:col-span-6">
         <Image
           src={'/images/vitormoraes.png'}
@@ -22,7 +22,7 @@ function Hero() {
           className="object-cover md:h-[350px] md:w-[350px] lg:h-[450px] lg:w-[450px]"
         />
       </div>
-      <div className="flex max-w-[80%] flex-col pt-8 md:col-span-5 md:flex-none md:items-start md:text-start">
+      <div className="flex flex-col pt-8 md:col-span-5 md:flex-none md:items-start md:text-start">
         <div className="mb-5 text-4xl font-semibold lg:text-6xl">
           <h1>{t('hello')}</h1>
           <h1>{t('engineer')}</h1>

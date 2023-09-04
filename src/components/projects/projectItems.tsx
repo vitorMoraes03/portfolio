@@ -18,25 +18,23 @@ function ProjectItems({
   return (
     <div>
       <ul>
-        <li className="flex items-center justify-between border-b border-gray-200 py-4 text-xl">
-          {/* <Link
-            href={t(`projects.${selectionValue}.url`)}
-            className="flex text-xl"
-          >
-            <span className="mr-1">01. </span>
-            <p className="w-[80%]">{t(`link`)}</p>
-          </Link> */}
-          <div className="flex">
-            <span className="mr-1">01. </span>
-            <p className="w-[90%]">{t(`link`)}</p>
-          </div>
+        <li>
           <Link
             href={t(`projects.${selectionValue}.url`)}
-            className="text-sm font-semibold uppercase 
-            tracking-wide text-gray-400 hover:text-black"
             target="_blank"
+            className="flex items-center justify-between border-b border-gray-200 py-4 text-xl"
           >
-            Live
+            <div className="flex">
+              <span className="mr-1">01. </span>
+              <p className="w-[90%]">{t(`link`)}</p>
+            </div>
+
+            <p
+              className="text-sm font-semibold uppercase 
+            tracking-wide text-gray-400 hover:text-black"
+            >
+              Live
+            </p>
           </Link>
         </li>
         <ListItem

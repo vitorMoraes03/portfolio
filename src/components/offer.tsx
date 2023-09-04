@@ -34,11 +34,11 @@ function OfferItem({
 }) {
   return (
     <div className="border-b border-b-gray-200 py-5 sm:border-b-0 sm:border-l sm:border-l-gray-200 sm:pl-6">
-      <span className="text-4xl text-gray-300 opacity-70 hover:opacity-90">
+      <span className="text-4xl text-gray-400 opacity-70">
         {span}
       </span>
-      <h4 className="pt-8 text-lg ">{title}</h4>
-      <p className="max-w-xs pt-1">{text}</p>
+      <h4 className="pt-6 text-xl">{title}</h4>
+      <p className="max-w-xs pt-2">{text}</p>
     </div>
   );
 }
