@@ -18,7 +18,7 @@ function About() {
 
   return (
     <section
-      className="grid grid-cols-1 gap-12 pt-28 md:grid-cols-2 md:gap-0"
+      className="grid grid-cols-1 gap-20 pt-20 md:pt-28 md:grid-cols-2 md:gap-0"
       id="about"
     >
       <div className="pr-10">
@@ -35,8 +35,9 @@ function About() {
         </div>
       </div>
       <div
-        className="relative h-[225px] w-[225px] self-center 
-      justify-self-center xs:h-[275px] xs:w-[275px] lg:h-[325px] lg:w-[325px]"
+        className="relative order-first h-[225px] w-[225px] 
+      self-center justify-self-center xs:h-[275px] xs:w-[275px] 
+      md:order-none lg:h-[325px] lg:w-[325px]"
       >
         {imagesArray.map((image, index) => (
           <ImageCarousel
