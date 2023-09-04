@@ -20,6 +20,10 @@ function ListItem({
 }: ListItemProps) {
   const [open, setOpen] = useState(false);
   const t = useTranslations('Projects');
+  const paragraph = t(
+    `projects.${keyItem}.${identifyText(number)}`
+  );
+  const length = paragraph.length;
 
   useEffect(() => {
     if (currentDropdown === number) {
@@ -28,6 +32,8 @@ function ListItem({
       setOpen(false);
     }
   }, [currentDropdown]);
+
+  // o footer sobe e desce, é um problema?
 
   return (
     <li className="border-b border-gray-200 py-4">
@@ -41,9 +47,11 @@ function ListItem({
           setCurrentDropdown(number);
         }}
       >
-        <div className='flex'>
+        <div className="flex">
           <span className="mr-1">0{number}. </span>
-          <p className='w-[80%]'>{t(identifyText(number))}</p>
+          <p className="w-[90%]">
+            {t(identifyText(number))}
+          </p>
         </div>
         {open ? (
           <button>
@@ -57,12 +65,12 @@ function ListItem({
       </div>
       <div
         className={`overflow-hidden transition-all duration-[400ms] ease-cubic-bezier ${
-          open ? 'h-20' : 'h-0'
+          open
+            ? `h-[${length}px] lg:h-[${length / 2}px]`
+            : 'h-0'
         }`}
       >
-        <p className="pt-3">
-          {t(`projects.${keyItem}.${identifyText(number)}`)}.
-        </p>
+        <p className="pt-3">{paragraph}</p>
       </div>
     </li>
   );

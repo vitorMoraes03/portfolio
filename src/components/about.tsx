@@ -7,6 +7,7 @@ import { useState } from 'react';
 function About() {
   const t = useTranslations('About');
   const imgsKeysCarousel = [0, 1, 2];
+  const textKeysAbout = [0, 1, 2];
   const [currentImage, setCurrentImage] = useState(0);
   const imagesArray = imgsKeysCarousel.map((key) => ({
     src: t(`arrayOfImages.${key}.src`),
@@ -17,28 +18,26 @@ function About() {
 
   return (
     <section
-      className="grid grid-cols-1 gap-12 pt-28 sm:grid-cols-2 sm:gap-0"
+      className="grid grid-cols-1 gap-12 pt-28 md:grid-cols-2 md:gap-0"
       id="about"
     >
       <div className="pr-10">
         <h2 className="text-3xl">{t('title')}</h2>
         <div className="pt-6">
-          {/* criar LOOP */}
-          <p>
-            <span className='ml-1'>{t('text.0.span')} </span>
-            {t('text.0.paragraph')}
-          </p>
-          <p>
-            <span className='ml-1'>{t('text.1.span')} </span>
-            {t('text.1.paragraph')}
-          </p>
-          <p>
-            <span className='ml-1'>{t('text.2.span')} </span>
-            {t('text.2.paragraph')}
-          </p>
+          {textKeysAbout.map((key) => (
+            <p key={key} className="">
+              <span className="ml-1 font-semibold text-gray-400">
+                {t(`text.${key}.span`)}{' '}
+              </span>
+              {t(`text.${key}.paragraph`)}
+            </p>
+          ))}
         </div>
       </div>
-      <div className="relative h-[225px] w-[225px] self-center justify-self-center lg:h-[325px] lg:w-[325px]">
+      <div
+        className="relative h-[225px] w-[225px] self-center 
+      justify-self-center xs:h-[275px] xs:w-[275px] lg:h-[325px] lg:w-[325px]"
+      >
         {imagesArray.map((image, index) => (
           <ImageCarousel
             key={index}

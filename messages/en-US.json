@@ -13,20 +13,20 @@
     "text": "Passionate about exploring and learning new things, with a focus on Typescript and React."
   },
   "Offer": {
-    "title": "Fun Facts About Me",
+    "title": "Fun facts about me...",
     "items": [
       {
-        "span": "👨‍🍳",
+        "span": "01",
         "title": "Chef",
         "text": "Before going into the technology field, I worked as a Chef de Cuisine for a decade, collaborating with exceptional teams and prominent professionals in the field."
       },
       {
-        "span": "✈️",
+        "span": "02",
         "title": "A Few Miles Traveled",
-        "text": "I was born in the capital of Rio de Janeiro, but soon moved to Nova Friburgo, in the countryside of the state. Later, in my professional journey, I lived in São Paulo and Lisbon."
+        "text": "I was born in Rio de Janeiro, but soon moved to Nova Friburgo, in the countryside of the state. Later, in my professional journey, I lived in São Paulo and Lisbon."
       },
       {
-        "span": "🤝",
+        "span": "03",
         "title": "Commitment",
         "text": "I have a great respect for the work environment and always approach my tasks with interest and collaboration."
       }

@@ -13,20 +13,20 @@
     "text": "Apaixonado por explorar e aprender sobre coisas novas, com foco em Typescript e React."
   },
   "Offer": {
-    "title": "Curiosidades sobre mim ",
+    "title": "Curiosidades sobre mim...",
     "items": [
       {
-        "span": "👨‍🍳",
+        "span": "01",
         "title": "Chef de Cozinha",
         "text": "Antes de ingressar na área de tecnologia, atuei como Chef de Cozinha por uma década, colaborando com equipes excepcionais e profissionais de destaque na área."
       },
       {
-        "span": "✈️",
+        "span": "02",
         "title": "Alguns quilômetros rodados",
-        "text": "Nasci na capital do Rio de Janeiro, mas logo me mudei para Nova Friburgo, região serrana do estado. Depois, já na jornada profissional, morei em São Paulo e Lisboa."
+        "text": "Nasci no Rio de Janeiro, mas logo me mudei para Nova Friburgo, região serrana do estado. Depois, já na jornada profissional, morei em São Paulo e Lisboa."
       },
       {
-        "span": "🤝",
+        "span": "03",
         "title": "Comprometimento",
         "text": "Tenho muito respeito pelo ambiente de trabalho e sempre abordo minhas tarefas com interesse e colaboração."
       }
