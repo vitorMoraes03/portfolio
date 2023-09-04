@@ -25,7 +25,7 @@ function About() {
         <h2 className="text-3xl">{t('title')}</h2>
         <div className="pt-6">
           {textKeysAbout.map((key) => (
-            <p key={key} className="">
+            <p key={key} className="mb-[1px]">
               <span className="ml-1 font-semibold text-gray-400">
                 {t(`text.${key}.span`)}{' '}
               </span>
