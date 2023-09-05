@@ -95,7 +95,7 @@
       {
         "name": "Angry Match",
         "description": "Angry Match é um jogo da memória desenvolvido em React, com o uso de uma API para imagens. Este foi meu primeiro projeto durante o Bootcamp.",
-        "goals": "Angry Match é um jogo da memória desenvolvido em React, com o uso de uma API para imagens. Este foi meu primeiro projeto durante o Bootcamp.",
+        "goals": "Desenvolver habilidades em React e lógica de programação foi o objetivo principal, especialmente para lidar com as de variáveis do jogo, como vitória, derrota, pontos e o comportamento das cartas. A lógica de programação representou o maior desafio, onde, devido à falta de experiência, tomei decisões equivocadas ao abordar certos problemas.",
         "url": "https://angrymatch.netlify.app/",
         "imageUrl": "/images/backgroundimg-green-several-cards.png",
         "stack": "React, JavaScript, Styled Components"
